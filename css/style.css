@@ -78,6 +78,7 @@ body {
 
 
 
+
 main {
     position: relative; /* Necesario para el pseudo-elemento */
     min-height: 100vh;
@@ -122,6 +123,20 @@ main > * {
 }
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .logohome img {
     align-items: center;
     padding-bottom: 5vh;
@@ -147,6 +162,13 @@ main > * {
     box-shadow: 0 0 5px white, 0 0 10px white, 0 0 15px white;
     font-weight: bold;
 }
+
+
+
+
+
+
+
 
 
 
