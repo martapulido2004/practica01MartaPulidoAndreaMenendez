@@ -1,7 +1,9 @@
+// Lista de rutas de las imágenes en la carpeta 'img'
 const images = [
     'img/fondo1.jpeg',
     'img/fondo2.jpeg',
     'img/fondo3.jpeg',
+    'img/fondo4.jpeg'
     
 
 ];
@@ -22,6 +24,7 @@ setInterval(changeBackground, 5000);
 
 // Inicializa el fondo con la primera imagen
 changeBackground();
+
 
 
 
