@@ -83,44 +83,21 @@ main {
     position: relative; /* Necesario para el pseudo-elemento */
     min-height: 100vh;
     width: 100%;
+    height: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     text-align: center;
-    color: white;
+    background-color: #5c46c9;
+    color: rgb(177, 24, 24);
     background-size: cover;
     background-position: center;
-    transition: background-image 1s ease-in-out;
     padding: 2rem;
+    top: 10px;
 }
 
-main::before {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(0, 0, 0, 0.4); /* Color y opacidad de la capa (0.4 es 40% de opacidad) */
-    z-index: 1;
-}
 
-main > * {
-    position: relative;
-    z-index: 2; /* Para que el contenido esté por encima de la capa opaca */
-}
-
-.background-slideshow {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-size: cover;
-    background-position: center;
-    transition: background-image 1s ease-in-out; /* Transición suave */
-}
 
 
 
