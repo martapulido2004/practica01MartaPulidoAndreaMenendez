@@ -1,0 +1,84 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+    font-size: 16px; /* Tamaño de fuente base */
+}
+
+body {
+    background-color: rgb(255, 255, 255);
+    padding-top: 70px;
+}
+
+
+
+
+
+
+
+
+main {
+    position: relative; /* Necesario para el pseudo-elemento */
+    min-height: 100vh;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: #5c46c9;
+    color: rgb(23, 195, 17);
+    background-size: cover;
+    background-position: center;
+    padding: 2rem;
+    top: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.logohome img {
+    align-items: center;
+    padding-bottom: 5vh;
+}
+
+.btn {
+    padding: 1rem 2rem; /* Padding responsivo */
+    background-color: transparent;
+    border: 1px solid white;
+    color: white;
+    outline: none;
+    transition: 0.6s ease;
+    font-family: Helvetica;
+    font-weight: bold;
+    font-size: 1rem;
+    border-radius: 15px;
+}
+
+.btn:hover {
+    cursor: pointer;
+    background-color: white;
+    color: rgb(73, 1, 66);
+    box-shadow: 0 0 5px white, 0 0 10px white, 0 0 15px white;
+    font-weight: bold;
+}
