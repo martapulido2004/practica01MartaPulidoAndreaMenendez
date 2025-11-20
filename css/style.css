@@ -98,13 +98,13 @@ body {
 
 
 footer {
-  background: #1f2329; /* fondo gris oscuro */
+  background: #ffffff; /* fondo gris oscuro */
 }
 
 .custom-col {
-  background: #2b2348;        /* morado oscuro */
-  border: 1px solid #5c46c9;  /* borde morado brillante */
-  color: #fff;                /* texto blanco */
+  background: #ffffff;        /* morado oscuro */
+    /* borde morado brillante */
+  color: #000000;                /* texto blanco */
   padding: 30px 0;            /* separación interna vertical */
-  font-size: 24px;
+  font-size: 15px;
 }
