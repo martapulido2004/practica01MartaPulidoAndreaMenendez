@@ -1,0 +1,71 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+    font-size: 16px; /* Tamaño de fuente base */
+}
+
+body {
+    background-color: rgb(231, 14, 14);
+    padding-top: 70px;
+}
+
+.barraPrincipal {
+    position: fixed; /* Fija el header en la parte superior */
+    top: 0;
+    left: 0;
+    width: 100%; /* Asegura que ocupe todo el ancho de la pantalla */
+    z-index: 10; /* Hace que el header esté por encima del contenido */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffffff; /* Color sólido similar al original */
+    padding: 1rem 2rem;
+    color: white;
+    border-radius: 0% 0% 20% 20%;
+}
+
+.barraPrincipal img {
+    width: 300px;
+    padding-right: 5rem;
+}
+
+.navMenu {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    font-family: Helvetica;
+    font-size: 1.2rem;
+    gap: 1rem;
+}
+
+.navMenu li {
+    margin-left: 1rem; /* Usa rem para ser responsivo */
+}
+
+.navMenu li a {
+    color: rgb(255, 0, 0);
+    text-decoration: none;
+    padding: 0.5rem; /* Usa rem para ser responsivo */
+}
+
+.navMenu li a:hover {
+    cursor: pointer;
+    background-color: transparent;
+    color: rgb(255, 255, 255);
+    text-shadow: 0 0 5px rgb(118, 40, 40), 0 0 10px rgb(181, 52, 52), 0 0 15px rgb(181, 52, 52);
+    font-weight: bold;
+}
+
+.hamburguesa {
+    display: none;
+    font-size: 2rem;
+    color: white;
+    cursor: pointer;
+}
