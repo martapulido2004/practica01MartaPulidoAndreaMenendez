@@ -41,13 +41,21 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .hero {
-  min-height: 80vh;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+}
+
+.home-hero {
+  min-height: 100vh;
 }
 
 .hero-card img {
   height: 420px;
   object-fit: cover;
 }
+
+
 
 .badge.text-bg-danger {
   background-color: var(--miradas-red) !important;
@@ -141,7 +149,7 @@ footer a:hover {
 }
 
 @media (max-width: 991.98px) {
-  .hero {
+  .home-hero {
     min-height: auto;
   }
 
