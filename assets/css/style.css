@@ -57,7 +57,10 @@ h1, h2, h3, h4, h5, h6 {
 
 .hero-cta .btn {
   box-shadow: 0 12px 30px rgba(0, 0, 0, 0.15);
+}
 
+.home-hero .hero-cta {
+  bottom: 18%;
 }
 
 .badge.text-bg-danger {
@@ -154,6 +157,10 @@ footer a:hover {
 @media (max-width: 991.98px) {
   .home-hero {
     min-height: auto;
+  }
+
+  .home-hero .hero-cta {
+    bottom: 12%;
   }
 
   .hero-card img {
