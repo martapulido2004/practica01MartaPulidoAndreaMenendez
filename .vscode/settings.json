@@ -19,3 +19,30 @@
                     <h6 class="fw-bold text-danger text-uppercase small">Público objetivo</h6>
                     <p class="text-secondary mb-0">Personas de 20 a 45 años que buscan reconectar con raíces culturales españolas mediante relatos visuales. Valoran diseño editorial, autenticidad y experiencias inmersivas.</p>
                   </div>
+
+
+
+
+
+
+                  ------------------
+                  los cuadrados raros del antes de ver la galería
+
+                   <div class="row g-3">
+              <div class="col-6">
+                <div class="card h-100 border-0 shadow-sm">
+                  <div class="card-body">
+                    <h6 class="fw-bold">Símbolos</h6>
+                    <p class="text-secondary mb-0">Molinos, espigas y cintas rojas que vuelan al compás del viento.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-6">
+                <div class="card h-100 border-0 shadow-sm">
+                  <div class="card-body">
+                    <h6 class="fw-bold">Personajes</h6>
+                    <p class="text-secondary mb-0">Mujeres bordadoras, cuadrillas de jóvenes y abuelos que custodian romances.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
