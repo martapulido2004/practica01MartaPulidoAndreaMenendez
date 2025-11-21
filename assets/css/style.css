@@ -26,6 +26,12 @@ h1, h2, h3, h4, h5, h6 {
   background-position: center;
 }
 
+.hero-banner {
+  min-height: 70vh;
+  background-repeat: no-repeat;
+}
+
+
 .navbar-brand {
   letter-spacing: 0.08em;
 }
