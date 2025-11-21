@@ -39,6 +39,14 @@ document.getElementById("btnRevsita").addEventListener("click", function() {
 });
 
 
+const scroll = new LocomotiveScroll({
+  el: document.querySelector('[data-scroll-container]'),
+  smooth: true,
+  lerp: 0.07   // suavidad del scroll
+});
+
+
+
 function mostrarAlerta() {
     alert("Lo sentimos, esta información no está disponible. Pruebe más tarde.");
 }
