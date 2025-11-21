@@ -84,6 +84,12 @@ h1, h2, h3, h4, h5, h6 {
   overflow: hidden;
 }
 
+.gallery-card img {
+  width: 100%;
+  height: 220px;
+  object-fit: cover;
+}
+
 .gallery-card::after {
   content: attr(data-caption);
   position: absolute;
