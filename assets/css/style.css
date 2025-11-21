@@ -55,7 +55,10 @@ h1, h2, h3, h4, h5, h6 {
   object-fit: cover;
 }
 
+.hero-cta .btn {
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.15);
 
+}
 
 .badge.text-bg-danger {
   background-color: var(--miradas-red) !important;
