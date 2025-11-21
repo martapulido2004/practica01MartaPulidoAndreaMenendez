@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Miradas | Dossier de diseño</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css">
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body class="bg-white text-dark">
+  <header class="bg-black text-white sticky-top shadow-sm">
+    <nav class="navbar navbar-expand-lg navbar-dark container py-3">
+      <a class="navbar-brand fw-bold text-uppercase tracking-wide" href="index.html">Miradas</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navContent" aria-controls="navContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navContent">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+          <li class="nav-item"><a class="nav-link" href="index.html">Inicio</a></li>
+          <li class="nav-item"><a class="nav-link" href="festividades.html">Festividades</a></li>
+          <li class="nav-item"><a class="nav-link active" href="dossier.html">Dossier de diseño</a></li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="py-5 bg-cover text-white" style="background-image: linear-gradient(120deg, rgba(0,0,0,0.9), rgba(0,0,0,0.55)), url('https://images.unsplash.com/photo-1489515217757-5fd1be406fef?auto=format&fit=crop&w=1400&q=80');">
+      <div class="container py-5" data-aos="fade-up">
+        <p class="text-uppercase fw-bold text-danger small">Dossier</p>
+        <h1 class="display-5 fw-bold">Diseño y dirección de arte</h1>
+        <p class="lead">Documento de referencia para la experiencia digital de Miradas. Incluye investigación, público, wireframes y estilos finales.</p>
+      </div>
+    </section>
+
+    <section class="py-5 bg-white">
+      <div class="container">
+        <div class="row g-4 align-items-start">
+          <div class="col-lg-4" data-aos="fade-right">
+            <div class="card border-0 shadow-sm h-100">
+              <div class="card-body">
+                <h5 class="fw-bold">Repositorio público</h5>
+                <p class="text-secondary">Código y recursos se alojan en un repositorio GitHub de libre acceso.</p>
+                <a href="https://github.com/tu-usuario/miradas" class="btn btn-outline-danger" target="_blank" rel="noreferrer">https://github.com/tu-usuario/miradas</a>
+                <p class="small text-secondary mb-0 mt-2">Actualiza la URL al publicar el repositorio definitivo.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-8" data-aos="fade-left">
+            <div class="row g-3">
+              <div class="col-md-6">
+                <div class="card border-0 shadow-sm h-100">
+                  <div class="card-body">
+                    <h6 class="fw-bold text-danger text-uppercase small">Referencias</h6>
+                    <p class="mb-1">1. <strong>Barça Magazine</strong> — tipografía limpia + fotografías en duotono.</p>
+                    <p class="mb-1">2. <strong>National Geographic Traveler</strong> — narrativas visuales largas con hero inmersivo.</p>
+                    <p class="mb-1">3. <strong>El País Semanal</strong> — uso de serif + sans para jerarquía emocional.</p>
+                    <p class="text-secondary">Inspiraron el contraste entre titulares contundentes y cuerpos de texto legibles.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="card border-0 shadow-sm h-100">
+                  <div class="card-body">
+                    <h6 class="fw-bold text-danger text-uppercase small">Público objetivo</h6>
+                    <p class="text-secondary mb-0">Personas de 20 a 45 años que buscan reconectar con raíces culturales españolas mediante relatos visuales. Valoran diseño editorial, autenticidad y experiencias inmersivas.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-12">
+                <div class="card border-0 shadow-sm h-100">
+                  <div class="card-body">
+                    <h6 class="fw-bold text-danger text-uppercase small">Wireframes</h6>
+                    <p class="text-secondary">Se definieron bocetos para <strong>Home</strong> (hero + cards + newsletter) y <strong>Festividades</strong> (hero + secciones espejo + línea temporal). La navegación se adapta con barra colapsable en mobile, uso de grid de Bootstrap para columnas 12/6/4 y componentes de cards.</p>
+                    <div class="row g-3">
+                      <div class="col-md-6">
+                        <div class="wireframe-box p-3 rounded-3 border">Desktop: hero 2 columnas, carousel visual, sección de tarjetas en 3 columnas, newsletter centrado.</div>
+                      </div>
+                      <div class="col-md-6">
+                        <div class="wireframe-box p-3 rounded-3 border">Mobile: hero apilado, cards en 1 columna, acordeones para testimonios y galería en grid 2x2.</div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="py-5 bg-soft">
+      <div class="container">
+        <div class="row g-4 align-items-start">
+          <div class="col-lg-4" data-aos="fade-right">
+            <h3 class="fw-bold">Paleta y tipografías</h3>
+            <p class="text-secondary">Se eligió un trinomio rojo-blanco-negro que conecta tradición y fuerza. Tipografías: <strong>Playfair Display</strong> para titulares (tono editorial) y <strong>Inter</strong> para cuerpo (legibilidad digital).</p>
+            <div class="d-flex gap-3 mt-3">
+              <span class="color-swatch bg-danger"></span>
+              <span class="color-swatch bg-white border"></span>
+              <span class="color-swatch bg-black"></span>
+            </div>
+          </div>
+          <div class="col-lg-8" data-aos="fade-left">
+            <div class="row g-3">
+              <div class="col-md-6">
+                <div class="card border-0 shadow-sm h-100">
+                  <div class="card-body">
+                    <h6 class="fw-bold text-danger text-uppercase small">Componentes clave</h6>
+                    <ul class="text-secondary mb-0">
+                      <li>Hero con imagen de fondo y overlay.</li>
+                      <li>Carousel de Bootstrap para slideshow.</li>
+                      <li>Cards con badges para categorías.</li>
+                      <li>Acordeones y modales como lightbox.</li>
+                      <li>Formularios con validación.</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="card border-0 shadow-sm h-100">
+                  <div class="card-body">
+                    <h6 class="fw-bold text-danger text-uppercase small">Layout final</h6>
+                    <p class="text-secondary">Grid 12 columnas; secciones alternan fondos claros y oscuros. En tablet se pasan a 2 columnas; en mobile, contenido apilado con paddings amplios y botones táctiles.</p>
+                    <p class="text-secondary mb-0">Se aplicaron animaciones AOS y efectos hover en galerías para aportar dinamismo.</p>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="bg-black text-white py-4">
+    <div class="container d-flex flex-column flex-md-row align-items-center justify-content-between">
+      <div>
+        <h5 class="mb-1">Miradas</h5>
+        <p class="mb-0 text-secondary">Documento vivo de estilo y dirección de arte.</p>
+      </div>
+      <div class="d-flex gap-3">
+        <a class="text-white" href="index.html">Inicio</a>
+        <a class="text-white" href="festividades.html">Festividades</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script src="assets/js/script.js"></script>
+</body>
+</html>
