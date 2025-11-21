@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Playfair+Display:wght@600;700&display=swap');
+
+:root {
+  --miradas-red: #c8102e;
+  --miradas-black: #0a0a0a;
+  --miradas-soft: #f7f3f0;
+}
+
+body {
+  font-family: 'Inter', system-ui, -apple-system, sans-serif;
+  background-color: #f9f9f9;
+  color: #1a1a1a;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Playfair Display', 'Times New Roman', serif;
+  letter-spacing: -0.02em;
+}
+
+.bg-soft {
+  background: var(--miradas-soft);
+}
+
+.bg-cover {
+  background-size: cover;
+  background-position: center;
+}
+
+.navbar-brand {
+  letter-spacing: 0.08em;
+}
+
+.tracking-wide {
+  letter-spacing: 0.12em;
+}
+
+.hero {
+  min-height: 80vh;
+}
+
+.hero-card img {
+  height: 420px;
+  object-fit: cover;
+}
+
+.badge.text-bg-danger {
+  background-color: var(--miradas-red) !important;
+}
+
+.btn-danger {
+  background-color: var(--miradas-red);
+  border-color: var(--miradas-red);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.btn-danger:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 10px 30px rgba(200, 16, 46, 0.35);
+}
+
+.btn-outline-dark:hover,
+.btn-outline-light:hover {
+  transform: translateY(-1px);
+}
+
+.gallery-thumb, .gallery-card img {
+  transition: transform 0.3s ease, filter 0.3s ease;
+}
+
+.gallery-thumb:hover,
+.gallery-card img:hover {
+  transform: scale(1.03);
+  filter: brightness(1.05);
+}
+
+.gallery-card {
+  position: relative;
+  overflow: hidden;
+}
+
+.gallery-card::after {
+  content: attr(data-caption);
+  position: absolute;
+  inset: auto 0 0 0;
+  background: rgba(10, 10, 10, 0.8);
+  color: #fff;
+  padding: 0.6rem 0.9rem;
+  opacity: 0;
+  transform: translateY(100%);
+  transition: opacity 0.3s ease, transform 0.3s ease;
+  font-size: 0.9rem;
+}
+
+.gallery-card:hover::after {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.accordion-button:not(.collapsed) {
+  background-color: rgba(200, 16, 46, 0.05);
+  color: var(--miradas-black);
+}
+
+.timeline-card {
+  border-top: 3px solid var(--miradas-red);
+}
+
+.color-swatch {
+  width: 52px;
+  height: 52px;
+  border-radius: 12px;
+  display: inline-block;
+  box-shadow: 0 8px 18px rgba(0, 0, 0, 0.08);
+}
+
+.wireframe-box {
+  background: #fff;
+  font-size: 0.95rem;
+  color: #4b4b4b;
+  box-shadow: 0 6px 20px rgba(0,0,0,0.04);
+}
+
+footer a {
+  text-decoration: none;
+}
+
+footer a:hover {
+  color: var(--miradas-red);
+}
+
+@media (max-width: 991.98px) {
+  .hero {
+    min-height: auto;
+  }
+
+  .hero-card img {
+    height: 320px;
+  }
+}
+
+@media (max-width: 575.98px) {
+  .hero-card img {
+    height: 260px;
+  }
+}
